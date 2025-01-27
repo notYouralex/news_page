@@ -13,29 +13,6 @@ This project is a static website created as an HTML activity, showcasing news ar
 *   [Authors](#authors)
 *   [License](#license)
 
-## Project Structure
-
-├── .github
-│ └── workflows
-│ └── static.yml
-├── .vscode
-│ └── settings.json
-├── README.md
-├── about.html
-├── img
-│ ├── (various image files)
-├── index.html
-├── tagumNews.html
-└── worldNews.html
-
-*   **`.github/workflows/static.yml`:** GitHub Actions workflow for deploying to GitHub Pages.
-*   **`.vscode/settings.json`:** VS Code settings for Live Server.
-*   **`img/`:** Directory containing images used on the website.
-*   **`index.html`:** Main landing page of the website.
-*   **`about.html`:** "About Us" page introducing the team.
-*   **`tagumNews.html`:** Page dedicated to news from Tagum City.
-*   **`worldNews.html`:** Page dedicated to world news.
-
 ## Features
 
 *   **News Sections:**  The website is divided into sections for University of Mindanao news, Tagum City news, and World news.
