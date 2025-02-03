@@ -34,13 +34,13 @@ This project is a static website created as an HTML activity, showcasing news ar
 1. **Clone the repository:**
 
     ```bash
-    git clone <repository-url>
+    git clone (https://github.com/notYouralex/news_page.git)
     ```
 
 2. **Navigate to the project directory:**
 
     ```bash
-    cd <project-directory>
+    cd news_page
     ```
 
 3. **Open in VS Code (optional):**

@@ -6,63 +6,158 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/University_of_Mindanao_Logo.png" type="image/x-icon">
+
+    <style>
+        body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+        }
+        #header {
+            width: 100%;
+            height: 15%;
+            border-bottom: solid #ab5717;
+        }
+        #UMTCNews {
+            width: 30%;
+            align-items: "left";
+        }
+        #UMTCLogo {
+            width: 10%;
+            color: white;
+        
+        }
+        #umtcImage {
+            height: 80px;
+        }
+
+        #headerUMTC {
+            text-decoration: none;
+            color: #ac2d21;
+        }
+
+        #worldNewsTable {
+            width: 20%;
+            text-align: center;
+        }
+
+        #worldNewsHeader {
+            color: #ac2d21;
+
+        }
+
+        #tagumNewsTable {
+            width: 20%;
+        }
+
+        #tagumNewsHeader {
+            color: #ac2d21;
+        }
+        
+        #aboutUsTable {
+            width: 100%;
+        }
+
+        #tableCellAboutUs {
+            padding-left: 30px;
+            
+            
+        }
+
+        #aboutUsRow {
+            height: 5%;
+        }
+
+        #aboutUsHeader {
+            color: #ac2d21;
+            padding-left: 44.1%;
+        }
+
+        #rowNames {
+            height: 25%;
+        }
+
+        #namesTableCell {
+            text-align: center; padding: 30px; background-color:  #fff5c3; border: solid #ab5717;
+            width: 20%; 
+            height:20%;
+        }
+
+        #aboutUsImages {
+            width:50%; 
+            height:50%;
+        }
+        
+        #aboutUsNames {
+            text-align: center;
+            color: #ab5717;
+        }
+
+        #aboutUsTableCell {
+            background-color: #e19238;
+        }
+
+        #aboutUsParagraph {
+            padding: 10px; color: white; font-size: larger; text-align: justify;
+        }
+    </style>
 </head>
 
-<body style="height: 100%" style="width: 100%;">
-    <table width="100%" height="15%" style="border-bottom: solid #ab5717;">
+<body>
+    <table id= "header">
         <tr>
-            <td width="10%">
-                <a href="index.html" style="color: white;"><img src="./img\University_of_Mindanao_Logo.png"
-                        alt="University of Mindanao Logo" height="80"></tda>
+            <td id = "UMTCLogo" width="10%">
+                <a href="index.html"><img id="umtcImage" src="./img\University_of_Mindanao_Logo.png"
+                        alt="University of Mindanao Logo"></tda>
             </td>
-            <td width="30%" align="left">
+            <td id = "UMTCNews">
 
-                <h1> <a href="index.html" style="text-decoration: none; color: #ac2d21;">University
+                <h1> <a id="headerUMTC" href="index.html">University
                         of Mindanao News </a></h1>
 
             </td>
-            <td width="20%" align="center">
+            <td id = "worldNewsTable">
 
-                <h2 style="color: #ac2d21;"><a href="worldNews.html" style="color: #ac2d21;">World News</a></h2>
+                <h2><a id = "worldNewsHeader" href="worldNews.html">World News</a></h2>
 
             </td>
-            <td width="20%" align="center">
+            <td id = "tagumNewsTable">
 
-                <h2 style="color: #ac2d21;"><a href="tagumNews.html" style="color: #ac2d21;">Tagum News</a></h2>
+                <h2><a id="tagumNewsHeader" href="tagumNews.html">Tagum News</a></h2>
 
             </td>
 
         </tr>
     </table>
-    <table width=100%>
-        <tr height="5%">
-            <td style="padding-left: 30px;" colspan="4">
-                <h1 style="color: #ac2d21; padding-left: 44.1%;">
+    <table id = "aboutUsTable">
+        <tr id = "aboutUsRow">
+            <td id = "tableCellAboutUs" colspan="4">
+                <h1 id = "aboutUsHeader">
                     About Us
                 </h1>
             </td>
         </tr>
-        <tr height="25%">
-            <td style="text-align: center; padding: 30px; background-color:  #fff5c3; border: solid #ab5717;" width="20%" height="10%">
-                <img src="./img/jervis.jpg" width="60%" height="60%" alt="Jervis James">
-                <h2 style="text-align: center; color: #ab5717;"><strong>Jervis James Pedotim</strong></h2>
+        <tr id = "rowNames">
+            <td id = "namesTableCell">
+                <img id = "aboutUsImages" src="./img/jervis.jpg"alt="Jervis James">
+                <h2 id = "aboutUsNames"style="text-align: center; color: #ab5717;"><strong>Jervis James Pedotim</strong></h2>
             </td>
-            <td style="text-align: center; padding: 30px; background-color:  #fff5c3;  border: solid #ab5717;" width="20%" height="10%">
+            <td id = "namesTableCell" >
                 <img src="./img/kyne.jpg" width="50%" height="50%" alt="Kyne Anthony">
-                <h2 style="text-align: center; color: #ab5717;">Kyne Anthony Pizon</h2>
+                <h2 id = "aboutUsNames">Kyne Anthony Pizon</h2>
             </td>
-            <td style="text-align: center; padding: 30px; background-color:  #fff5c3;  border: solid #ab5717; " width="20%" height="10%">
-                <img src="./img/doy.jpg" width="50%" height="50%" alt="Gerald Andrei">
-                <h2 style="text-align: center; color: #ab5717;">Gerald Andrei Villa</h2>
+            <td id = "namesTableCell">
+                <img id = "aboutUsImages" src="./img/doy.jpg" alt="Gerald Andrei">
+                <h2 id = "aboutUsNames">Gerald Andrei Villa</h2>
             </td>
-            <td style="text-align: center; padding: 30px; background-color:  #fff5c3; border: solid #ab5717;" width="20%" height="10%">
-                <img src="./img/xander.png" width="50%" height="50%" alt="Alexander">
-                <h2 style="text-align: center; color: #ab5717;">Alexander Arche</h2>
+            <td id = "namesTableCell">
+                <img src="./img/xander.png" id = "aboutUsImages" alt="Alexander">
+                <h2 id = "aboutUsNames">Alexander Arche</h2>
             </td>
         </tr>
         <tr>
-            <td style="background-color: #e19238;">
-                <p style="padding: 10px; color: white; font-size: larger; text-align: justify;">"I aspire to be a racist someday... a
+            <td id="aboutUsTableCell">
+                <p id = "aboutUsParagraph">"I aspire to be a racist someday... a
                     <strong>racer</strong>, that is! Gotta
                     love the speed, the cars
                     that are not black (I don't like the color black), cars that won't steal (steal my life) , and
@@ -71,8 +166,8 @@
                 </p>
 
             </td>
-            <td style="background-color: #e19238;">
-                <p style="padding: 10px; color: white; font-size: larger; text-align: justify;">"I'm not just a top global Fanny user
+            <td id="aboutUsTableCell">
+                <p id="aboutUsParagraph">"I'm not just a top global Fanny user
                     having 7k+ MMR, with the salary of 10k
                     per day, I'm
                     <strong>Kyne
@@ -81,8 +176,8 @@
 
 
             </td>
-            <td style="background-color: #e19238; ">
-                <p style="padding: 10px; color: white; font-size: larger; text-align: justify;">"I'm a professional Roblox player nicknamed
+            <td id = "aboutUsTableCell">
+                <p id="aboutUsParagraph">"I'm a professional Roblox player nicknamed
                     <strong>'Knee Gas'</strong>, I
                     offer services such as
                     piloting your Blox Fruit account, getting a high winrate in Dress Me Up, and many more..."</p>
@@ -90,8 +185,8 @@
 
 
             </td>
-            <td style="background-color: #e19238; ">
-                <p style="padding: 10px; color: white; font-size: larger; text-align: justify;">"Call me Alex, <strong>Alex the
+            <td id="aboutUsTableCell">
+                <p id="aboutUsParagraph">"Call me Alex, <strong>Alex the
                         Yapper!</strong> My jawline’s so sharp, it could cut through the
                     Skibidi Toilet memes and slice through Sigma grindsets. I talk non-stop, brainrot on 100, like I’m
                     stuck in an infinite loop of random thoughts. Catch me yapping about nothing and everything, while
